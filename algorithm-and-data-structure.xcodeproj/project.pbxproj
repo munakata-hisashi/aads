@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"algorithm-and-data-structure::algorithm-and-data-structurePackageTests::ProductTarget" /* algorithm-and-data-structurePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "algorithm-and-data-structurePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_36 /* PBXTargetDependency */,
+			);
+			name = "algorithm-and-data-structurePackageTests";
+			productName = "algorithm-and-data-structurePackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9F0D2FA72663CAF0005592DD /* Code3_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D2FA62663CAF0005592DD /* Code3_6.swift */; };
+		9F0D2FAD2663D38F005592DD /* Code3_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D2FAC2663D38F005592DD /* Code3_7.swift */; };
+		9F5D5E9E264A9EC300C2928D /* Code3_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D5E9D264A9EC300C2928D /* Code3_4.swift */; };
+		9F5D5EA4264AA2AC00C2928D /* Code3_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D5EA3264AA2AC00C2928D /* Code3_5.swift */; };
+		9F65D1B1264472350074A93A /* PairBruteForceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65D1B0264472350074A93A /* PairBruteForceSearch.swift */; };
+		9F65D1B8264473620074A93A /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65D1B7264473620074A93A /* ArrayExtension.swift */; };
+		9F8395612647C8D40093C230 /* SubsetSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8395602647C8D40093C230 /* SubsetSum.swift */; };
+		9F8395832647F9010093C230 /* Code3_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8395822647F9010093C230 /* Code3_2.swift */; };
+		9F8395892647FBCE0093C230 /* Code3_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8395882647FBCE0093C230 /* Code3_3.swift */; };
+		9FE2D97226432E5D00C38D9C /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2D97126432E5D00C38D9C /* LinearSearch.swift */; };
+		OBJ_24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
+		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
+		OBJ_43 /* algorithm_and_data_structureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* algorithm_and_data_structureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FE2D960264327F500C38D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "algorithm-and-data-structure::algorithm-and-data-structure";
+			remoteInfo = "algorithm-and-data-structure";
+		};
+		9FE2D963264327F700C38D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "algorithm-and-data-structure::algorithm-and-data-structureTests";
+			remoteInfo = "algorithm-and-data-structureTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0D2FA62663CAF0005592DD /* Code3_6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_6.swift; sourceTree = "<group>"; };
+		9F0D2FAC2663D38F005592DD /* Code3_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_7.swift; sourceTree = "<group>"; };
+		9F5D5E9D264A9EC300C2928D /* Code3_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_4.swift; sourceTree = "<group>"; };
+		9F5D5EA3264AA2AC00C2928D /* Code3_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_5.swift; sourceTree = "<group>"; };
+		9F65D1B0264472350074A93A /* PairBruteForceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairBruteForceSearch.swift; sourceTree = "<group>"; };
+		9F65D1B7264473620074A93A /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		9F8395602647C8D40093C230 /* SubsetSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsetSum.swift; sourceTree = "<group>"; };
+		9F8395662647DDA30093C230 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F8395822647F9010093C230 /* Code3_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_2.swift; sourceTree = "<group>"; };
+		9F8395882647FBCE0093C230 /* Code3_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code3_3.swift; sourceTree = "<group>"; };
+		9FE2D97126432E5D00C38D9C /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* algorithm_and_data_structureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithm_and_data_structureTests.swift; sourceTree = "<group>"; };
+		OBJ_18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"algorithm-and-data-structure::algorithm-and-data-structure::Product" /* algorithm-and-data-structure */ = {isa = PBXFileReference; lastKnownFileType = text; path = "algorithm-and-data-structure"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"algorithm-and-data-structure::algorithm-and-data-structureTests::Product" /* algorithm_and_data_structureTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = algorithm_and_data_structureTests.xctest; path = "algorithm-and-data-structureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F65D1B6264473440074A93A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F65D1B7264473620074A93A /* ArrayExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9F83956B2647F7AC0093C230 /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				9F8395822647F9010093C230 /* Code3_2.swift */,
+				9F8395882647FBCE0093C230 /* Code3_3.swift */,
+				9F5D5E9D264A9EC300C2928D /* Code3_4.swift */,
+				9F5D5EA3264AA2AC00C2928D /* Code3_5.swift */,
+				9F0D2FA62663CAF0005592DD /* Code3_6.swift */,
+				9F0D2FAC2663D38F005592DD /* Code3_7.swift */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		9FE2D97026432E4400C38D9C /* Chap3 */ = {
+			isa = PBXGroup;
+			children = (
+				9F83956B2647F7AC0093C230 /* Problem */,
+				9FE2D97126432E5D00C38D9C /* LinearSearch.swift */,
+				9F65D1B0264472350074A93A /* PairBruteForceSearch.swift */,
+				9F8395602647C8D40093C230 /* SubsetSum.swift */,
+			);
+			path = Chap3;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* algorithm-and-data-structureTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* algorithm-and-data-structureTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* XCTestManifests.swift */,
+				OBJ_13 /* algorithm_and_data_structureTests.swift */,
+			);
+			name = "algorithm-and-data-structureTests";
+			path = "Tests/algorithm-and-data-structureTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"algorithm-and-data-structure::algorithm-and-data-structureTests::Product" /* algorithm_and_data_structureTests.xctest */,
+				"algorithm-and-data-structure::algorithm-and-data-structure::Product" /* algorithm-and-data-structure */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_18 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* algorithm-and-data-structure */,
+				9F8395662647DDA30093C230 /* MyPlayground.playground */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* algorithm-and-data-structure */ = {
+			isa = PBXGroup;
+			children = (
+				9F65D1B6264473440074A93A /* Extension */,
+				9FE2D97026432E4400C38D9C /* Chap3 */,
+				OBJ_9 /* main.swift */,
+			);
+			name = "algorithm-and-data-structure";
+			path = "Sources/algorithm-and-data-structure";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"algorithm-and-data-structure::SwiftPMPackageDescription" /* algorithm-and-data-structurePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structurePackageDescription" */;
+			buildPhases = (
+				OBJ_30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "algorithm-and-data-structurePackageDescription";
+			productName = "algorithm-and-data-structurePackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"algorithm-and-data-structure::algorithm-and-data-structure" /* algorithm-and-data-structure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structure" */;
+			buildPhases = (
+				OBJ_23 /* Sources */,
+				OBJ_25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "algorithm-and-data-structure";
+			productName = algorithm_and_data_structure;
+			productReference = "algorithm-and-data-structure::algorithm-and-data-structure::Product" /* algorithm-and-data-structure */;
+			productType = "com.apple.product-type.tool";
+		};
+		"algorithm-and-data-structure::algorithm-and-data-structureTests" /* algorithm-and-data-structureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structureTests" */;
+			buildPhases = (
+				OBJ_41 /* Sources */,
+				OBJ_44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_45 /* PBXTargetDependency */,
+			);
+			name = "algorithm-and-data-structureTests";
+			productName = algorithm_and_data_structureTests;
+			productReference = "algorithm-and-data-structure::algorithm-and-data-structureTests::Product" /* algorithm_and_data_structureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "algorithm-and-data-structure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"algorithm-and-data-structure::algorithm-and-data-structure" /* algorithm-and-data-structure */,
+				"algorithm-and-data-structure::SwiftPMPackageDescription" /* algorithm-and-data-structurePackageDescription */,
+				"algorithm-and-data-structure::algorithm-and-data-structurePackageTests::ProductTarget" /* algorithm-and-data-structurePackageTests */,
+				"algorithm-and-data-structure::algorithm-and-data-structureTests" /* algorithm-and-data-structureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				9F65D1B1264472350074A93A /* PairBruteForceSearch.swift in Sources */,
+				9F0D2FA72663CAF0005592DD /* Code3_6.swift in Sources */,
+				9F5D5E9E264A9EC300C2928D /* Code3_4.swift in Sources */,
+				9F0D2FAD2663D38F005592DD /* Code3_7.swift in Sources */,
+				9F8395832647F9010093C230 /* Code3_2.swift in Sources */,
+				9FE2D97226432E5D00C38D9C /* LinearSearch.swift in Sources */,
+				9F5D5EA4264AA2AC00C2928D /* Code3_5.swift in Sources */,
+				9F8395892647FBCE0093C230 /* Code3_3.swift in Sources */,
+				9F8395612647C8D40093C230 /* SubsetSum.swift in Sources */,
+				OBJ_24 /* main.swift in Sources */,
+				9F65D1B8264473620074A93A /* ArrayExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_31 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_42 /* XCTestManifests.swift in Sources */,
+				OBJ_43 /* algorithm_and_data_structureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "algorithm-and-data-structure::algorithm-and-data-structureTests" /* algorithm-and-data-structureTests */;
+			targetProxy = 9FE2D963264327F700C38D9C /* PBXContainerItemProxy */;
+		};
+		OBJ_45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "algorithm-and-data-structure::algorithm-and-data-structure" /* algorithm-and-data-structure */;
+			targetProxy = 9FE2D960264327F500C38D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "algorithm-and-data-structure.xcodeproj/algorithm_and_data_structure_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "algorithm-and-data-structure";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "algorithm-and-data-structure.xcodeproj/algorithm_and_data_structure_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "algorithm-and-data-structure";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "algorithm-and-data-structure.xcodeproj/algorithm_and_data_structureTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "algorithm-and-data-structureTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "algorithm-and-data-structure.xcodeproj/algorithm_and_data_structureTests_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = "algorithm-and-data-structureTests";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "algorithm-and-data-structure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_20 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_21 /* Debug */,
+				OBJ_22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_27 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structurePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_33 /* Build configuration list for PBXAggregateTarget "algorithm-and-data-structurePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_38 /* Build configuration list for PBXNativeTarget "algorithm-and-data-structureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
