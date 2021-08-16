@@ -1,4 +1,3 @@
 //print("Hello, world!")
-print("\(Fibo.fiboRecursive(6))")
 
-Fibo.fiboLoop()
+Fibo.fiboMemo(n: 50)
