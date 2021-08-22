@@ -1,5 +1,6 @@
 import Foundation
 
+// SubsetSumRecursive.search()
 struct SubsetSumRecursive {
     static func search() {
         let w = Int(readLine()!)!
