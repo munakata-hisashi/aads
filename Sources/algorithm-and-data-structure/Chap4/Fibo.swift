@@ -25,6 +25,7 @@ struct Fibo {
     }
     
     // code 4.8
+    // Fibo.fiboMemo(n: 50)
     static func fiboMemo(n: Int) {
         var memo = Array<Int>.init(repeating: -1, count: n)
         func fibo(n: Int) -> Int {
