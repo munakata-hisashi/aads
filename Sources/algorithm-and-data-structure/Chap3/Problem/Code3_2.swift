@@ -1,10 +1,3 @@
-//
-//  Code3_2.swift
-//  algorithm-and-data-structure
-//
-//  Created by h_munakata on 2021/05/09.
-//
-
 import Foundation
 
 struct Code3_2 {
