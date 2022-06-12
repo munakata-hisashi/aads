@@ -1,5 +1,6 @@
 import Foundation
 
+/// 5.2
 struct Flog {
     static func flog() {
         let list = Array<Int>.fromReadLine()
@@ -18,3 +19,25 @@ struct Flog {
         print("\(dp)")
     }
 }
+
+/// 5.3
+
+struct Flog5_3 {
+    static let INF = 1000000
+    static func flog() {
+        let list = Array<Int>.fromReadLine()
+        var dp: Array<Int> = .init(repeating: INF, count: list.count)
+        dp[0] = 0
+        for i in list.indices {
+            guard i != 0 else { continue }
+            chmin(a: &dp[i], b: dp[i - 1] + abs(list[i] - list[i - 1]))
+            if i > 1 {
+                chmin(a: &dp[i], b: dp[i - 2] + abs(list[i] - list[i - 2]))
+            }
+        }
+        print("\(dp[list.count - 1])")
+        print("\(dp)")
+    }
+}
+
+
