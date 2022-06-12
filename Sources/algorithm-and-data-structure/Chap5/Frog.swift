@@ -40,6 +40,7 @@ struct Flog5_3 {
     }
 }
 
+/// 5.4
 struct Flog5_4 {
     static func flog() {
         let list = Array<Int>.fromReadLine()
@@ -57,3 +58,22 @@ struct Flog5_4 {
         print("\(dp)")
     }
 }
+
+/// 5.5
+struct Flog5_5 {
+    static func flog() {
+        let list = Array<Int>.fromReadLine()
+        
+        func rec(_ i: Int) -> Int {
+            if i == 0 { return 0}
+            var res = INF
+            chmin(a: &res, b: rec(i - 1) + abs(list[i] - list[i - 1]))
+            
+            if (i > 1) { chmin(a: &res, b: rec(i - 2) + abs(list[i] - list[i - 2])) }
+            return res
+        }
+        print("\(rec(list.count - 1))")
+    }
+}
+
+/// 5.6
